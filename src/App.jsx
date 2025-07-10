@@ -5,6 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Skills from './pages/Skills';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main className="space-y-10 pt-24">
         <Home />
         <About />
+        <Skills />
         <Projects />
         <Contact />
 
@@ -28,7 +30,7 @@ function App() {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/yourlinkedin"
+            href="https://www.linkedin.com/in/ritik-jangra-70b192370/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white  transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"

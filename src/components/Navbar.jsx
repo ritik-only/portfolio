@@ -14,7 +14,7 @@ const Navbar = () => {
         href="#home"
         className="text-blue-900 font-semibold text-2xl mr-4"
       >
-        Ritik
+        PORTFOLIO
       </a>
 
       {/* Hamburger Button for Small Screens */}
@@ -32,7 +32,7 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-500 ease-in-out flex flex-col md:flex-row gap-4 items-center`}
       >
-        {["Home", "About", "Projects", "Contact"].map((item) => (
+        {["Home", "About", "Skills","Projects", "Contact"].map((item) => (
           <li key={item}>
             <a
               href={`#${item.toLowerCase()}`}
