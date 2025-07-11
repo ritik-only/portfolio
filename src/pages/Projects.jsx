@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Online Voting System",
     tech: "Java, MySQL",
-    link: "#",
+    link: "https://github.com/ritik-only/onilne_university_voting_system",
     image: "https://images.pexels.com/photos/7103150/pexels-photo-7103150.jpeg"
   },
   {
@@ -28,7 +28,7 @@ const Projects = () => (
           key={idx}
           className="bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg flex flex-col md:flex-row"
         >
-         <div className="md:w-1/2 flex items-center justify-center">
+        <div className="md:w-1/2 flex items-center justify-center">
   <img
     src={project.image}
     alt={project.title}
