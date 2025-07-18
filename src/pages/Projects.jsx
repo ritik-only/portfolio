@@ -1,8 +1,8 @@
 const projects = [
   {
     title: "Headphone Kart",
-    tech: "HTML, CSS",
-    link: "#",
+    tech: "HTML, CSS, Javascript",
+    link: "https://github.com/ritik-only/Headphone-Kart",
     image: "https://images.pexels.com/photos/14541034/pexels-photo-14541034.jpeg"
   },
   {
@@ -14,7 +14,7 @@ const projects = [
   {
     title: "DMOCIL (Agro Service)",
     tech: "React (Framer Motion), TailwindCSS",
-    link: "#",
+    link: "https://dmocil.com/",
     image: "https://images.pexels.com/photos/1251026/pexels-photo-1251026.jpeg"
   }
 ];
